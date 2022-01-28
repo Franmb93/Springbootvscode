@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-RestApi2Application<rest_api_2>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.capgemini.rest_api_2.RestApi2Application",
+            "projectName": "rest_api_2",
+            "args": ""
+        }
+    ]
+}
