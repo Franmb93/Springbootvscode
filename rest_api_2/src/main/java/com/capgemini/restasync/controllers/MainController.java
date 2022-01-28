@@ -27,7 +27,7 @@ public class MainController {
         return new ResponseEntity<List<Persona>>(personaService.findAll(), HttpStatus.OK);
     }
 
-    @GetMapping("personas/{id}")
+    @GetMapping("/{id}")
     public ResponseEntity<Persona> findById(@PathVariable long id){
         Persona persona = personaService.findById(id);
 
